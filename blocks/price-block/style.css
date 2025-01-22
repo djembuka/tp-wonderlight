@@ -1,13 +1,13 @@
 .twpx-price-block {
   display: flex;
-  padding: 40px;
+  /* padding: 40px; */
   flex-direction: column;
   align-items: flex-start;
   gap: 10px;
-  border-radius: 8px;
+  /* border-radius: 8px;
   border: 1px solid #f1f1f1;
   background: #fff;
-  font-family: Manrope, Arial, Helvetica, sans-serif;
+  font-family: Manrope, Arial, Helvetica, sans-serif; */
 }
 .twpx-price-block__title {
   color: #f18b17;
@@ -38,6 +38,11 @@
 }
 .twpx-price-block__presence span {
   color: #03ac64;
+}
+.twpx-price-block__labels {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
 }
 .twpx-price-block__labels span {
   display: flex;
