@@ -1,0 +1,49 @@
+:root {
+  --twpx-primary: #f18b17;
+  --twpx-secondary: #7735e0;
+}
+
+.twpx-small {
+  font-size: 15px;
+}
+
+.twpx-btn {
+  --twpx-btn-color: #fff;
+  --twpx-btn-primary: var(--twpx-primary, #f18b17);
+  --twpx-btn-secondary: var(--twpx-secondary, #7735e0);
+  --twpx-btn-background: var(--twpx-btn-primary);
+  --twpx-btn-font-size: 15px;
+  --twpx-btn-padding: 16px 32px;
+
+  color: var(--twpx-btn-color);
+  text-align: center;
+  font-family: Manrope;
+  font-size: var(--twpx-btn-font-size);
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px; /* 160% */
+  display: inline-flex;
+  padding: var(--twpx-btn-padding);
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  border-radius: 4px;
+  background: var(--twpx-btn-background);
+  cursor: pointer;
+  -webkit-transition: opacity 0.3s ease;
+  transition: opacity 0.3s ease;
+  text-decoration: none;
+  white-space: nowrap;
+}
+.twpx-btn:hover {
+  opacity: 0.7;
+}
+.twpx-btn-primary {
+  --twpx-btn-background: var(--twpx-btn-primary);
+}
+.twpx-btn-secondary {
+  --twpx-btn-background: var(--twpx-btn-secondary);
+}
+.twpx-btn-medium {
+  --twpx-btn-font-size: 15px;
+}

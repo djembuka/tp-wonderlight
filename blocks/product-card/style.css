@@ -1,0 +1,192 @@
+.twpx-product-card {
+  display: flex;
+  padding: 16px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+  border-radius: 6px;
+  background: #fff;
+  -webkit-transition: box-shadow 0.3s ease;
+  transition: box-shadow 0.3s ease;
+}
+.twpx-product-card:hover {
+  box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.1);
+}
+.twpx-product-card__img {
+}
+.twpx-product-card__title {
+  color: #323232;
+  font-family: Manrope;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.twpx-product-card__property-list {
+  display: grid;
+  gap: 4px;
+}
+.twpx-product-card__property-item {
+  color: #737374;
+  font-family: Manrope;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.twpx-product-card__price-block {
+  display: grid;
+  gap: 10px;
+}
+.twpx-product-card__price-title {
+  color: #f18b17;
+  font-family: Manrope;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 16px; /* 100% */
+}
+.twpx-product-card__price {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+}
+.twpx-product-card__price-num {
+  color: #000;
+  font-family: Manrope;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 36px;
+  display: flex;
+  gap: 10px;
+}
+.twpx-product-card__price-num span {
+  color: #b5b5b5;
+}
+.twpx-product-card__price .twpx-small {
+  display: flex;
+  gap: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 15px; /* 100% */
+}
+.twpx-product-card__price .twpx-small s {
+  color: #b9b9b9;
+}
+.twpx-product-card__price .twpx-small span {
+  color: var(--twpx-primary, #f18b17);
+}
+.twpx-product-card__presence {
+  color: #000;
+  font-family: Manrope;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 21.75px; /* 145% */
+}
+.twpx-product-card__presence span {
+  color: #03ac64;
+}
+.twpx-product-card__presence.twpx-product-card__presence--no-presense span {
+  color: var(--twpx-secondary, #7735e0);
+}
+.twpx-product-card__labels {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+}
+.twpx-product-card__labels span {
+  display: flex;
+  padding: 2px 8px;
+  align-items: center;
+  gap: 10px;
+  border-radius: 6px;
+  background: #03ac64;
+
+  color: #fff;
+  font-family: Manrope;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 17.4px; /* 145% */
+}
+.twpx-product-card__buttons {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  align-self: stretch;
+  justify-content: space-between;
+  width: 100%;
+}
+.twpx-product-card__buttons svg {
+  display: block;
+}
+.twpx-product-card__button .twpx-product-card__button--mobile {
+  display: none;
+}
+.twpx-product-card__compare,
+.twpx-product-card__favorites {
+  flex-shrink: 0;
+}
+.twpx-product-card__buttons .twpx-product-card__button.twpx-btn {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+@media (max-width: 767px) {
+  .twpx-product-card {
+    padding: 4px;
+    gap: 8px;
+    border-radius: 0;
+  }
+  .twpx-product-card:hover {
+    box-shadow: none;
+  }
+  .twpx-product-card__title {
+    word-break: break-all;
+  }
+  .twpx-product-card__price-title {
+    font-size: 12px;
+  }
+  .twpx-product-card__property-item {
+    font-size: 10px;
+  }
+  .twpx-product-card__price-num {
+    color: #000;
+    font-size: 16px;
+    line-height: normal;
+  }
+  .twpx-product-card__price {
+    display: grid;
+    gap: 2px;
+  }
+  .twpx-product-card__price .twpx-small {
+    font-size: 10px;
+  }
+  .twpx-product-card__presence {
+    font-size: 12px;
+  }
+  .twpx-product-card__labels {
+    display: grid;
+    gap: 4px;
+  }
+  .twpx-product-card__labels span {
+    font-size: 10px;
+    line-height: 12px;
+    padding: 4px;
+    width: 100%;
+    text-align: center;
+  }
+  .twpx-product-card__button .twpx-product-card__button--desktop {
+    display: none;
+  }
+  .twpx-product-card__button .twpx-product-card__button--mobile {
+    display: block;
+  }
+  .twpx-product-card__buttons .twpx-product-card__button.twpx-btn {
+    width: 40px;
+    height: 40px;
+    padding: 8px;
+  }
+}
