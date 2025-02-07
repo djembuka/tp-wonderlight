@@ -3,6 +3,13 @@
   --twpx-secondary: #7735e0;
 }
 
+a {
+  -webkit-transition: opacity 0.3s ease;
+  transition: opacity 0.3s ease;
+}
+a:hover {
+  opacity: 0.7;
+}
 .twpx-small {
   font-size: 15px;
 }
@@ -38,6 +45,9 @@
 .twpx-btn:hover {
   opacity: 0.7;
 }
+a.twpx-btn:hover {
+  color: var(--twpx-btn-color);
+}
 .twpx-btn-primary {
   --twpx-btn-background: var(--twpx-btn-primary);
 }
@@ -46,4 +56,8 @@
 }
 .twpx-btn-medium {
   --twpx-btn-font-size: 15px;
+}
+
+.category-page__content {
+  overflow: visible;
 }
