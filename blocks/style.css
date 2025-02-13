@@ -1,6 +1,7 @@
 :root {
   --twpx-primary: #f18b17;
   --twpx-secondary: #7735e0;
+  --twpx-green: #03ac64;
 }
 
 a {
@@ -60,4 +61,13 @@ a.twpx-btn:hover {
 
 .category-page__content {
   overflow: visible;
+}
+.twpx-primary-bg {
+  background-color: var(--twpx-primary);
+}
+.twpx-secondary-bg {
+  background-color: var(--twpx-secondary);
+}
+.twpx-green-bg {
+  background-color: var(--twpx-green);
 }
