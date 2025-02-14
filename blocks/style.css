@@ -46,7 +46,8 @@ a:hover {
 .twpx-btn:hover {
   opacity: 0.7;
 }
-a.twpx-btn:hover {
+a.twpx-btn:hover,
+a.twpx-btn:focus {
   color: var(--twpx-btn-color);
 }
 .twpx-btn-primary {
