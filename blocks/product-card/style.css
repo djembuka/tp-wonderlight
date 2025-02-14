@@ -133,6 +133,10 @@
 .twpx-product-card__favorites {
   flex-shrink: 0;
 }
+.twpx-product-card__compare.active svg path,
+.twpx-product-card__favorites.active svg path {
+  stroke: var(--twpx-secondary, #7735e0);
+}
 .twpx-product-card__buttons .twpx-product-card__button.twpx-btn {
   width: 100%;
   box-sizing: border-box;
@@ -227,6 +231,6 @@
   }
 }
 .prod__el {
-  width: auto;
-  max-width: 100%;
+  width: auto !important;
+  max-width: 100% !important;
 }
