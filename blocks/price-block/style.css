@@ -4,10 +4,7 @@
   flex-direction: column;
   align-items: flex-start;
   gap: 10px;
-  /* border-radius: 8px;
-  border: 1px solid #f1f1f1;
-  background: #fff;
-  font-family: Manrope, Arial, Helvetica, sans-serif; */
+  margin-bottom: 35px;
 }
 .twpx-price-block__title {
   color: #f18b17;
@@ -79,8 +76,6 @@
   align-items: center;
   gap: 10px;
   border-radius: 6px;
-  background: #03ac64;
-
   color: #fff;
   font-family: Manrope;
   font-size: 12px;
