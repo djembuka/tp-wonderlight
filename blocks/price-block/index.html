@@ -5,13 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Price block</title>
     <link href="style.css" rel="stylesheet" />
+    <link href="../style.css" rel="stylesheet" />
   </head>
   <body>
     <div style="display: flex; gap: 40px">
       <div class="twpx-price-block">
-        <div class="twpx-price-block__price">4 490 ₽</div>
+        <div class="twpx-price-block__price">
+          <div class="twpx-price-block__price-num">4 490 ₽</div>
+        </div>
         <div class="twpx-price-block__presence">
-          Наличие: <span>44 шт</span>
+          Наличие: <span class="twpx-green-text">44 шт</span>
         </div>
         <div class="twpx-price-block__labels">
           <span>Бесплатная доставка</span>
@@ -20,9 +23,12 @@
       </div>
 
       <div class="twpx-price-block">
-        <div class="twpx-price-block__price"><span>от</span> 4 490 ₽</div>
+        <div class="twpx-price-block__price">
+          <div class="twpx-price-block__price-num"><span>от</span> 4 490 ₽</div>
+        </div>
         <div class="twpx-price-block__presence">
-          Наличие: <span>44 шт</span>
+          Наличие:
+          <span class="twpx-secondary-text">Под запрос</span>
         </div>
         <div class="twpx-price-block__labels">
           <span>Бесплатная доставка</span>
@@ -33,9 +39,27 @@
         <div class="twpx-price-block__title">
           Cпециальная цена от Wonderlight
         </div>
-        <div class="twpx-price-block__price">4 490 ₽</div>
+        <div class="twpx-price-block__price">
+          <div class="twpx-price-block__price-num">4 490 ₽</div>
+        </div>
         <div class="twpx-price-block__presence">
-          Наличие: <span>44 шт</span>
+          Наличие: <span class="twpx-green-text">44 шт</span>
+        </div>
+        <div class="twpx-price-block__labels">
+          <span>Бесплатная доставка</span>
+        </div>
+      </div>
+
+      <div class="twpx-price-block">
+        <div class="twpx-price-block__title">
+          Cпециальная цена от Wonderlight
+        </div>
+        <div class="twpx-price-block__price">
+          <div class="twpx-price-block__price-num">4 490 ₽</div>
+          <div class="twpx-small"><s>4 490 ₽</s> <span>(35%)</span></div>
+        </div>
+        <div class="twpx-price-block__presence">
+          Наличие: <span class="twpx-green-text">44 шт</span>
         </div>
         <div class="twpx-price-block__labels">
           <span>Бесплатная доставка</span>

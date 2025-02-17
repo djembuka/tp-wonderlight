@@ -63,6 +63,15 @@ a.twpx-btn:focus {
 .category-page__content {
   overflow: visible;
 }
+.twpx-primary-text {
+  color: var(--twpx-primary);
+}
+.twpx-secondary-text {
+  color: var(--twpx-secondary);
+}
+.twpx-green-text {
+  color: var(--twpx-green);
+}
 .twpx-primary-bg {
   background-color: var(--twpx-primary);
 }
