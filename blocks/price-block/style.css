@@ -83,3 +83,18 @@
   font-weight: 600;
   line-height: 17.4px; /* 145% */
 }
+
+/*Override*/
+@media (max-width: 768px) {
+  .card-image__flex {
+    margin-bottom: 25px !important;
+  }
+  .card-image__main-image {
+    margin-bottom: 0;
+  }
+}
+@media (max-width: 1100px) {
+  .card-image__flex {
+    margin-top: 20px;
+  }
+}
