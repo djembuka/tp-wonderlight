@@ -21,15 +21,14 @@
   font-style: normal;
   font-weight: 700;
   line-height: 55.1px; /* 153.056% */
+  display: flex;
+  column-gap: 16px;
+  row-gap: 16px;
+  align-items: center;
   flex-wrap: wrap;
 }
 .twpx-price-block__price span {
   color: #b5b5b5;
-}
-.twpx-price-block__price {
-  display: flex;
-  column-gap: 16px;
-  align-items: center;
 }
 .twpx-price-block__price-num {
   color: #000;
