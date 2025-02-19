@@ -21,13 +21,14 @@
   font-style: normal;
   font-weight: 700;
   line-height: 55.1px; /* 153.056% */
+  flex-wrap: wrap;
 }
 .twpx-price-block__price span {
   color: #b5b5b5;
 }
 .twpx-price-block__price {
   display: flex;
-  gap: 16px;
+  column-gap: 16px;
   align-items: center;
 }
 .twpx-price-block__price-num {
@@ -39,6 +40,7 @@
   line-height: 36px;
   display: flex;
   gap: 10px;
+  white-space: nowrap;
 }
 .twpx-price-block__price-num span {
   color: #b5b5b5;
@@ -52,9 +54,11 @@
 }
 .twpx-price-block__price .twpx-small s {
   color: #b9b9b9;
+  white-space: nowrap;
 }
 .twpx-price-block__price .twpx-small span {
   color: var(--twpx-primary, #f18b17);
+  white-space: nowrap;
 }
 
 .twpx-price-block__presence {
