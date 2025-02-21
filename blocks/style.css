@@ -28,7 +28,7 @@ a:hover {
   font-family: Manrope;
   font-size: var(--twpx-btn-font-size);
   font-style: normal;
-  font-weight: 700;
+  font-weight: 500;
   line-height: 24px; /* 160% */
   display: inline-flex;
   padding: var(--twpx-btn-padding);
