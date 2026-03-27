@@ -68,6 +68,10 @@
   font-weight: 600;
   line-height: 21.75px; /* 145% */
 }
+.twpx-price-block__date {
+  font-size: 12px;
+  font-weight: 400px;
+}
 .twpx-price-block__labels {
   display: flex;
   flex-wrap: wrap;
